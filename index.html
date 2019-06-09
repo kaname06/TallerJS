@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Taller JS</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>    
+    <div class="progress">
+        <div class="loading"  data-count="100%"></div>
+    </div>
+    <div class="container-log">
+        <div class="wrapper">            
+            <div class="img-wrapper bounce-in-bck">
+                <img src="src/userH.png" alt="" id="logImg">    
+            </div>        
+            <div id="access" class="shadow">                
+                <div class="input-group">
+                    <span class="lnr lnr-user"></span>                    
+                    <input class="poppins-light" placeholder="¿Como te llamas?" autocomplete="off" type="text" name="name" id="name">
+                </div>
+                <label class="radio poppins-light"><span class="text-radio">Hombre</span>
+                   <input type="radio" checked="checked" value="H" name="sex">
+                   <span class="checkmark"></span>
+                </label>
+                <label class="radio poppins-light"><span class="text-radio">Mujer</span>
+                    <input type="radio" name="sex" value="M">
+                    <span class="checkmark"></span>
+                </label>
+                <p style="text-align: center;margin: 15px 0px 0px 0px;">
+                    <button id="subName" class="poppins-light"><span class="focus-in-contract-bck">Empecemos</span> <span style="position:relative;top:2px;" class="lnr lnr-arrow-right-circle"></span> </button>
+                </p>
+            </div>
+        </div>        
+    </div>
+    <div class="wrapper_question none">
+        <div class="img-wrapper">
+            <img src="src/userH.png" alt="" id="logImgQ">
+        </div>
+        <span class="name_user poppins">text name</span>
+        <div class="questions_cont Q1 shadow_low mt-1">
+            <div class="left_number">
+                <a href="#!" onclick="listClick(1)" id="lId1" class=""><span>1</span></a>
+                <a href="#!" onclick="listClick(2)" id="lId2"><span>2</span></a>
+                <a href="#!" onclick="listClick(3)" id="lId3"><span>3</span></a>
+                <a href="#!" onclick="listClick(4)" id="lId4"><span>4</span></a>
+                <a href="#!" onclick="listClick(5)" id="lId5"><span>5</span></a>
+                <a href="#!" onclick="listClick(6)" id="lId6"><span>6</span></a>
+                <a href="#!" onclick="listClick(7)" id="lId7"><span>7</span></a>
+                <a href="#!" onclick="listClick(8)" id="lId8"><span>8</span></a>
+                <a href="#!" onclick="listClick(9)" id="lId9"><span>9</span></a>
+            </div>
+            <div class="right_arrows" style="font-size: 16px;">
+                <span class="lnr lnr-arrow-left-circle none"></span>
+                <span class="lnr lnr-arrow-right-circle"></span>
+            </div>
+        </div>
+        <hr>
+        <div class="questions_cont Q2 pb-5">
+            <div class="qcont bounce-in-top">
+                <p class="my-1">Pregunta <span id="qid"></span> De <span id="qidTotal"></span></p>
+                <hr class="my-2">
+                <p id="qcont" class="my-1"></p>
+                <p>
+                    <label class="radio poppins-light"><span class="text-radio" id="qa1"></span>
+                        <input type="radio" name="ans" id="qa1id">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio poppins-light"><span class="text-radio" id="qa2"></span>
+                        <input type="radio" name="ans" id="qa2id">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio poppins-light"><span class="text-radio" id="qa3"></span>
+                        <input type="radio" name="ans" id="qa3id">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio poppins-light"><span class="text-radio" id="qa4"></span>
+                        <input type="radio" name="ans" id="qa4id">
+                        <span class="checkmark"></span>
+                    </label>
+                </p>                
+            </div>
+            <button id="saveAns" class=""><span class="roll-in-blurred-left">Guardar respuesta</span></button>
+        </div>
+        <div class="result-cont none">
+            <div class="qcont bounce-in-top">
+                <p class="poppins-light">Resultado del Test <span id="result" class="poppins-bold"></span> | Porcentaje acumulado: <span id="acumul" class="poppins-bold"></span>%</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pregunta</th>
+                            <th>Tu respuesta</th>
+                            <th>Respuesta Correcta</th>
+                            <th>Resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resTable">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="js/jquery.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+</html>

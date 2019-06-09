@@ -1,0 +1,243 @@
+{
+    "name": "",
+    "sex": "src/userH.png",
+    "questions":
+    [{
+        "id": 1,
+        "answered": false,
+        "description": "¿Que es NodeJS?",
+        "answers": [
+            {
+                "id": 1,
+                "content": "Un lenguaje de maquetado",
+                "isCorrect": false
+            },
+            {
+                "id": 2,
+                "content": "Un entorno en tiempo de ejecución multiplataforma, de código abierto",
+                "isCorrect": true
+            },
+            {
+                "id": 3,
+                "content": "Un lenguaje de programación aislado",
+                "isCorrect": false
+            },
+            {
+                "id": 4,
+                "content": "Ninguna de las anteriores",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "answered": false,
+        "description": "¿Donde es ejecutado NodeJS?",
+        "answers": [
+            {
+                "id": 1,
+                "content": "En el lado del cliente",
+                "isCorrect": false
+            },            
+            {
+                "id": 2,
+                "content": "En el lado del servidor",
+                "isCorrect": true
+            },
+            {
+                "id": 3,
+                "content": "En el navegador",
+                "isCorrect": false
+            },
+            {
+                "id": 4,
+                "content": "En el computador",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "answered": false,
+        "description": "¿Cuál es la librería mas común con la que se estructuran servidores web en NodeJS?",
+        "answers": [
+            {
+                "id": 1,
+                "content": "ExpressJS",
+                "isCorrect": true
+            },            
+            {
+                "id": 2,
+                "content": "JQuery",
+                "isCorrect": false
+            },
+            {
+                "id": 3,
+                "content": "HTML",
+                "isCorrect": false
+            },
+            {
+                "id": 4,
+                "content": "VueJS",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "answered": false,
+        "description": "¿Como se llama el manejador de dependencias más común de NodeJS?",
+        "answers": [{
+                "id": 1,
+                "content": "Composser",
+                "isCorrect": false
+            },
+            {
+                "id": 2,
+                "content": "Bower",
+                "isCorrect": false
+            },
+            {
+                "id": 3,
+                "content": "RequireJS",
+                "isCorrect": false
+            },
+            {
+                "id": 4,
+                "content": "NPM",
+                "isCorrect": true
+            }
+        ]
+    }
+    ,
+    {
+        "id": 5,
+        "answered": false,
+        "description": "¿En que lenguaje de programación está basado NodeJS?",
+        "answers": [{
+                "id": 1,
+                "content": "Java",
+                "isCorrect": false
+            },
+            {
+                "id": 2,
+                "content": "C#",
+                "isCorrect": false
+            },
+            {
+                "id": 3,
+                "content": "JavaScript",
+                "isCorrect": true
+            },
+            {
+                "id": 4,
+                "content": "Python",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "answered": false,
+        "description": "¿Cuál es el motor de base de datos mas utilizado en trabajos con NodeJS?",
+        "answers": [{
+                "id": 1,
+                "content": "MongoDB",
+                "isCorrect": true
+            },
+            {
+                "id": 2,
+                "content": "SQL",
+                "isCorrect": false
+            },
+            {
+                "id": 3,
+                "content": "PostgreSQL",
+                "isCorrect": false
+            },
+            {
+                "id": 4,
+                "content": "Ninguna de las anteriores",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "answered": false,
+        "description": "¿Cuales son los frameworks o librerias mas usados en desarrollos con NodeJS?",
+        "answers": [{
+                "id": 1,
+                "content": "VueJS",
+                "isCorrect": false
+            },
+            {
+                "id": 2,
+                "content": "Angular JS",
+                "isCorrect": false
+            },
+            {
+                "id": 3,
+                "content": "React JS",
+                "isCorrect": false
+            },
+            {
+                "id": 4,
+                "content": "Todas las anteriores",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "answered": false,
+        "description": "¿Cual es el metodo utilizado por la sentencia 'ASYNC' para poner en cola de alta prioridad un proceso?",
+        "answers": [{
+                "id": 1,
+                "content": "Crono",
+                "isCorrect": false
+            },
+            {
+                "id": 2,
+                "content": "Await",
+                "isCorrect": true
+            },
+            {
+                "id": 3,
+                "content": "Despues",
+                "isCorrect": false
+            },
+            {
+                "id": 4,
+                "content": "Ninguna de las anteriores",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "answered": false,
+        "description": "¿Quienes son los desarrolladores estrella del 2019?",
+        "answers": [{
+                "id": 1,
+                "content": "Adrian y Yeisson",
+                "isCorrect": true
+            },
+            {
+                "id": 2,
+                "content": "Desarrolladores de Amazon",
+                "isCorrect": false
+            },
+            {
+                "id": 3,
+                "content": "Nadie",
+                "isCorrect": false
+            },
+            {
+                "id": 4,
+                "content": "Ninguna de las anteriores",
+                "isCorrect": false
+            }
+        ]
+    }]
+}
